@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:iconifiedByDefault="false"
+        app:queryHint="검색어를 입력하시오"
+        tools:ignore="MissingConstraints"/>
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="통합검색, 여성정보, 생활정보 버튼 들어갈 자리"
+            android:textColor="#000000"
+            android:background="#ffdead"/>
+    </LinearLayout>
+        <ImageView
+            android:paddingTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner1"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+        android:layout_marginTop="300dp"
+
+            android:id="@+id/ScrollView1"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button0"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button00"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:drawableTop="@drawable/thum"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="젱라ㅣㅡㄹㄴ룿ㄴ이르닟린은라ㅣㅡㄷㅈㄹ"
+                    android:textColor="#000000"
+                    app:backgroundTint="#fffff9"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
